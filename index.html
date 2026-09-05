@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -37,13 +38,49 @@
             
         </section>
 
-        <section id="about">
-            <h2>關於我</h2>
+        <section id="about" class="section">
+            <h2 class="section-title">關於我</h2>
+            <p class="section-sub">About Me</p>
+            <div class="about-box">
+                <img src="" alt="我的圖片" class="about-photo">
+                <div class="about-text">
+                    <h3>嗨, 我是劉子翊</h3>
+                    <p>我是一名高三學生</p>
+                </div>
+            </div>
         </section>
 
 
-        <section id="skills">
-            <h2>技能</h2>
+        <section id="skills" class="section">
+            <h2 class="section-title">我的技能</h2>
+            <p class="section-sub">skills</p>
+
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>HTML</h3>
+                    <p>作出網頁骨架</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-html" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3>CSS</h3>
+                    <p>排版與設計</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-css" style="width: 55%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>響應式設計</p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-javasript" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="works">
