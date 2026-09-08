@@ -19,7 +19,7 @@ body{
     font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     background-color: var(--bg);
     color: var(--main);
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 section{
@@ -29,7 +29,7 @@ section{
 
 section h2{
     color: var(--main);
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 900;
 }
 
@@ -62,7 +62,7 @@ section h2{
 
 .nav nav{
     display: flex;
-    gap: 28px;
+    gap: 26px;
 }
 
 .nav a{
@@ -94,9 +94,9 @@ section h2{
 }
 
 .hero-hi{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: .2em;
-    color: rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, .85);
 
 }
 
@@ -110,7 +110,7 @@ section h2{
 
 
 .hero-sub{
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(255, 255, 255, .85);
     margin-bottom: 36px;
 }
@@ -130,7 +130,7 @@ section h2{
 
 .btn:hover{
     transform: translateY(-3px);
-    box-shadow: 0 10px 22px rgba(231, 111, 81, .4);
+    box-shadow: 0 10px 24px rgba(231, 111, 81, .4);
 }
 
 .hero-btn{
@@ -150,7 +150,7 @@ section h2{
     background-color: #fff;
     color: var(--accent);
     transform: translateY(-3px);
-    box-shadow: 0 10px 22px rgba(255, 255, 255, .25);
+    box-shadow: 0 10px 24px rgba(255, 255, 255, .4);
 }
 
 .to-top{
@@ -168,7 +168,7 @@ section h2{
     text-decoration: none;
     font-size: 20px;
     font-weight: 900;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, .2);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .4);
     z-index: 90;
 }
 
@@ -223,7 +223,7 @@ section h2{
     object-fit: cover;
     flex-shrink: 0;
     border: 6px solid #fff;
-    box-shadow: 0 12px 30px rgba(29, 53, 87, .18);
+    box-shadow: 0 12px 30px rgba(29, 53, 87, .4);
 }
 
 .skill-grid{
@@ -237,12 +237,12 @@ section h2{
     border-radius: 16px;
     padding: 36px 20px;
     text-align: center;
-    box-shadow: 0 6px 18px rgba(29, 53, 87, .08);
+    box-shadow: 0 6px 18px rgba(29, 53, 87, .4);
 }
 
 .skill-card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 16px 32px rgba(29, 53, 87, .18);
+    box-shadow: 0 16px 32px rgba(29, 53, 87, .4);
 }
 
 .skill-icon{
@@ -310,13 +310,13 @@ section h2{
     overflow: hidden;
     text-decoration: none;
     color: var(--text);
-    box-shadow: 0 6px 18px rgba(29, 53, 87, .08);
+    box-shadow: 0 6px 18px rgba(29, 53, 87, .4);
     transition: transform .25s ease, box-shadow .25s ease;
 }
 
 .work-card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 18px 36px rgba(29, 53, 87, .18);
+    box-shadow: 0 18px 36px rgba(29, 53, 87, .4);
 }
 
 .work-info{
@@ -337,13 +337,13 @@ section h2{
 
 .work-link{
     color: var(--accent);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
 }
 
 .work-link:hover{
     font-weight: 900;
-    box-shadow: 0 18px 36px rgba(234, 180, 119, 0.18);
+    box-shadow: 0 18px 36px rgba(234, 169, 94, .4);
 }
 
 .work-img{
@@ -395,7 +395,7 @@ section h2{
 
 .Site-footer{
     background-color: var(--main);
-    color: rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, .85);
     text-align: center;
     padding: 28px 20px;
     font-size: 14px;
@@ -448,7 +448,7 @@ section h2{
     margin-left: -14px;
     width: 28px;
     text-align: center;
-    color: rgba(255, 255, 255, .25);
+    color: rgba(255, 255, 255, .4);
     font-size: 28px;
     text-decoration: none;
     animation: floatDown 1.8s ease-in-out infinite;
@@ -457,3 +457,64 @@ section h2{
 .scroll:hover{
     color: #fff;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* 手機768px */
+@media(max-width: 768px){
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px;
+    }
+
+    .nav nav{
+        gap: 20px;
+    }
+
+    .nav a{
+        font-size: 14px;
+    }
+   
+   .hero-sec h1{
+    font-size: 40px;
+    }
+    .hero-sub{
+        font-size: 16px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .section-sub{
+        font-size: 20px;
+        margin-bottom: 36px;
+     }
+    .about-box{
+        flex-direction: column;
+        text-align: center;
+        gap: 26px;
+    }
+    .about-photo{
+        width: 200px;
+        height: 200px;
+    }
+    .skill-grid{
+        grid-template-columns: repeat(2 1fr);
+        gap: 24px;
+    }
+
+    .btn{
+        padding: 14px 36px;
+    }
+
+    .nav a{
+        padding: 6px 4px;
+    }
+
+    .social{
+        gap: 34px;
+    }
+   } 
