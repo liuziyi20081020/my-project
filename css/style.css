@@ -228,7 +228,7 @@ section h2{
 
 .skill-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -278,20 +278,7 @@ section h2{
     margin-top: 14px;
 }
 
-.skill-bar-html{
-    height: 100%;
-    background-color: var(--accent);
-    border-radius: 999px;
-}
-
-
-.skill-bar-css{
-    height: 100%;
-    background-color: var(--accent);
-    border-radius: 999px;
-}
-
-.skill-bar-javascript{
+.skill-bar-progress{
     height: 100%;
     background-color: var(--accent);
     border-radius: 999px;
