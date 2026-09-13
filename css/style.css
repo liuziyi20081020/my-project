@@ -292,6 +292,7 @@ section h2{
 
 .work-card{
     display: block;
+    border: 2px solid #000;
     background-color: var(--text);
     border-radius: 16px;
     overflow: hidden;
