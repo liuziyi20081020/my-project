@@ -381,9 +381,8 @@ section h2{
     border-bottom-color: var(--accent);
 }
 
-.Site-footer{
-    background-color: var(--main);
-    color: rgba(255, 255, 255, .85);
+.site-footer{
+    color: #777;
     text-align: center;
     padding: 28px 20px;
     font-size: 14px;
